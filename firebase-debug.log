@@ -1,0 +1,17 @@
+[debug] [2021-01-26T19:34:09.451Z] ----------------------------------------------------------------------
+[debug] [2021-01-26T19:34:09.453Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --project personal-4ace7
+[debug] [2021-01-26T19:34:09.453Z] CLI Version:   9.1.0
+[debug] [2021-01-26T19:34:09.454Z] Platform:      darwin
+[debug] [2021-01-26T19:34:09.454Z] Node Version:  v14.15.3
+[debug] [2021-01-26T19:34:09.456Z] Time:          Tue Jan 26 2021 16:34:09 GMT-0300 (Brasilia Standard Time)
+[debug] [2021-01-26T19:34:09.456Z] ----------------------------------------------------------------------
+[debug] [2021-01-26T19:34:09.456Z] 
+[debug] [2021-01-26T19:34:09.465Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-26T19:34:09.465Z] > authorizing via signed-in user
+[debug] [2021-01-26T19:34:09.465Z] [iam] checking project personal-4ace7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-26T19:34:09.468Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-26T19:34:09.468Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-26T19:34:09.746Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 26 Jan 2021 19:34:09 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-26T19:34:09.772Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-4ace7:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
