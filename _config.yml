@@ -1,10 +1,10 @@
 # Site
 name: 'Eduardo Vieira'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+description: 'My personal blog.'
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/favicon.ico'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+# disqus: 'demowebsite'
+email: 'me@efvi.cc'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -18,13 +18,14 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
+    edu:
+      name:           Edu
+      site:           https://linktr.ee/efvi
       avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Hi, I am Edu!"
+      email:          me@efvi.cc
+      twitter:        https://twitter.com/efvi_
+      twitter-follow: https://twitter.com/intent/user?screen_name=efvi_
  
 # Defaults
 defaults:
@@ -34,7 +35,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: edu
       avatar: assets/images/avatar1.jpg
       
   # all pages

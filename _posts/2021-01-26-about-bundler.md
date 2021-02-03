@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "About Bundler"
-author: sal
+title:  "Want to grow 5 years in one? Work for a startup (or start your own)"
+author: edu
 categories: [ Jekyll ]
 image: assets/images/2.jpg
 ---
