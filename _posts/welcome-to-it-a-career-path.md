@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to IT, a complete guide to a successful career"
+title:  "Welcome to IT, a comprehensive guide to a successful career"
 author: edu
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg
