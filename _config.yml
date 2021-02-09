@@ -1,57 +1,84 @@
-# Site
-name: "Eduardo's Blog"
-description: 'Some of my thoughts.'
-logo: '/assets/images/logo.png'
-favicon: '/assets/images/favicon.ico'
-# disqus: 'demowebsite'
-email: 'me@efvi.cc'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
 
-include: ["_pages"]
-permalink: /:title/
+# Basic
+name:               "Eduardo's Blog"
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  
-authors:
-    edu:
-      name:           Edu
-      site:           https://linktr.ee/efvi
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Edu!"
-      email:          me@efvi.cc
-      twitter:        https://twitter.com/efvi_
-      twitter-follow: https://twitter.com/intent/user?screen_name=efvi_
- 
-# Defaults
+author:
+  twitter:          efvi_
+  github:           efvi
+  stackoverflow:    efvi
+  linkedin:         efvie
+  medium:           efvi
+  email:            me@efvi.cc
+
+copyright:
+  year:             2021
+  name:             Kiko
+
+# Google-analytics
+google-analytics:
+  id:               ""
+
+# Disqus
+disqus:
+  id:               ""
+
+# URL
+url:                "https://efvi.cc" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+baseurl:            "" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Sao_Paulo
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Hi, I'm Edu 👋"
+    url:            "/about"
+  #- name:           "Archive"
+  #  url:            "/archive"
+  #- name:           "Github"
+  #  url:            "https://github.com/AWEEKJ/Kiko-plus"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
 defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
+  -
+    scope:
+      path:         ""
+      type:         "pages"
     values:
-      layout: post
-      author: edu
-      avatar: assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
     values:
-      layout: page
-      
-# Syntax
-markdown: kramdown
-highlighter: rouge
+      layout:       "post"
 
-# Paginate
-paginate: 10
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
 
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude:            [vendor]
