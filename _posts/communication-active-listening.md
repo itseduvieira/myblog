@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello world, I just started a blog. We got back to 00's?"
+title:  "Welcome to IT, a complete guide to a successful career"
 author: edu
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg

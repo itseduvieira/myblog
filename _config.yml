@@ -1,6 +1,6 @@
 # Site
-name: 'Eduardo Vieira'
-description: 'My personal blog.'
+name: "Eduardo's Blog"
+description: 'Some of my thoughts.'
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/favicon.ico'
 # disqus: 'demowebsite'

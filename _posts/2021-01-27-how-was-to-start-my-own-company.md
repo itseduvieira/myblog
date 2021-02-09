@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How was to found my own company"
+title:  "How was to start my own company"
 author: edu
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why do I simply become a Product Manager after 13 years of coding?"
+title:  "Why do I simply turned into a Product Manager after 13 years of coding?"
 author: edu
 categories: [ Jekyll, tutorial ]
 image: assets/images/home.jpg
