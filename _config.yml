@@ -1,7 +1,3 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
 # Basic
 name:               "Eduardo's Blog"
 
@@ -33,7 +29,7 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           America/Sao_Paulo
-permalink:          /:year-:month-:day/:title/
+permalink:          /:title/
 
 # Pagination
 paginate:           5
@@ -46,9 +42,9 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "Hi, I'm Edu 👋"
+  - name:           "navabout"
     url:            "/about"
-  - name:           "Tags"
+  - name:           "navtags"
     url:            "/tags"
   #- name:           "Archive"
   #  url:            "/archive"
