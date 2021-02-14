@@ -8,14 +8,14 @@ name:               "Eduardo's Blog"
 author:
   twitter:          efvi_
   github:           efvi
-  stackoverflow:    efvi
+  stackoverflow:    "8441814/efvi"
   linkedin:         efvie
   medium:           efvi
   email:            me@efvi.cc
 
 copyright:
   year:             2021
-  name:             Kiko
+  name:             Eduardo Vieira
 
 # Google-analytics
 google-analytics:
@@ -80,5 +80,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
+  - jekyll-admin
+  - jekyll-multiple-languages-plugin
 
 exclude:            [vendor]
+
+languages: ["en", "pt"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
+
+# default_locale_in_subfolder: true

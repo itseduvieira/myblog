@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "A tech career and its psychological implications. Is it that hard to work with IT?"
+title:  "A tech career and its psychological implications"
+description: "Is it that hard to work with IT?"
 author: edu
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Hello world, I've just started a blog!"
+title:  "Hello world"
+description:  "I've just started a blog!"
 author: edu
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg
