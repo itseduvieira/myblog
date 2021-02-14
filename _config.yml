@@ -46,10 +46,10 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "Tags"
-    url:            "/tags"
   - name:           "Hi, I'm Edu 👋"
     url:            "/about"
+  - name:           "Tags"
+    url:            "/tags"
   #- name:           "Archive"
   #  url:            "/archive"
   #- name:           "Github"

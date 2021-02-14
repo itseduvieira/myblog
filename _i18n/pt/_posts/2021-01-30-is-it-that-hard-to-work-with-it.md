@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A tech career and its psychological implications"
-description: "Is it that hard to work with IT?"
+title:  "Uma carreira em tecnologia e suas implicações psicológicas"
+description: "É tão difícil assim trabalhar com TI?"
 author: edu
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
