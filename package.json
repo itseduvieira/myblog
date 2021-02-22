@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
       "start": "rm -Rf .jekyll-cache/ && bundle exec jekyll serve",
-      "build": "rm -Rf .jekyll-cache/ && rm -Rf _site/ && bundle exec jekyll build",
+      "build": "rm -Rf .jekyll-cache/ && rm -Rf _site/ && JEKYLL_ENV=production bundle exec jekyll build",
       "deploy": "npm run build && firebase deploy --project personal-4ace7"
     },
     "author": "Eduardo Vieira <eduardofelipevieira@gmail.com>",

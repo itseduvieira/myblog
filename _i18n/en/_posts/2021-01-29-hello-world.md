@@ -4,7 +4,7 @@ title:  "Hello world"
 description:  "I've just started a blog!"
 author: edu
 categories: [featured]
-image: assets/images/1.jpg
+image: assets/images/icon.png
 tags: [featured]
 ---
 That's it.  
