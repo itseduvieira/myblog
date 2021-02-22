@@ -12,15 +12,17 @@ layout: default
   <span class="post-date">
     <time>{{ page.date | date_to_string }}</time>
   </span>
-   • 
-  {% if site.lang == "pt" %}
-  <span class="post-date">
-    <a href="{{ page.url }}">Read in English 🇺🇸</a>
-  </span>
-  {% else %}
-  <span class="post-date">
-    <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
-  </span>
+  {% if page.translated == true %}
+    • 
+    {% if site.lang == "pt" %}
+    <span class="post-date">
+      <a href="{{ page.url }}">Read in English 🇺🇸</a>
+    </span>
+    {% else %}
+    <span class="post-date">
+      <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
+    </span>
+    {% endif %}
   {% endif %}
   <div class="post-tag">
     <ul>

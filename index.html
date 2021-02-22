@@ -14,15 +14,17 @@ layout: default
     <a href="{{ nav.url | prepend: site.baseurl }}">{% t nav.name %}</a>
     {% endif %}
 
+    {% if forloop.last == false %}
      • 
+    {% endif %}
 
     {% endfor %}
 
-    {% if site.lang == "pt" %}
+    <!-- {% if site.lang == "pt" %}
       <a href="{{ page.url }}">Read in English 🇺🇸</a>
     {% else %}
       <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
-    {% endif %}
+    {% endif %} -->
   </nav>
 </header>
 
