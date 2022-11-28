@@ -1,13 +1,29 @@
-# About me
+#### About
 
-My name is Eduardo Vieira and I live in Brazil 🇧🇷
+## Hi there, I'm Eduardo Vieira.
 
-## About my journey
+Welcome to my little corner on the Internet.
 
-I'm in tech since 2006, starting as developer, then architect, head of technology and for a couple of years moving to product management.
+I love to write.
 
-As a side project, my friend and I have started a company called Nomid.
+So I created this site to share my perspective of my experiences, across the following series.
 
-## About this blog
+<!---
+I believe technology could be a great way to make the world a better place.
+-->
 
-In this blog, I'll share some of my thoughts, especially about mental health, startups and neuroscience.
+### On a synapse's perspective
+
+Our brain is indeed a incredible machine. An absolute unity.
+
+### The least action
+
+Sometimes reality sounds much more miraculous than fiction.
+
+### Abort, Retry, Fail?
+
+I've been working in the technology field for a while.
+
+Over those years, I had the opportunity to work with a lot of awesome people, on several environments, working on different roles.
+
+Althought I may approach some technical stuff, I'm aware that there are too many great content available out there. So, instead of trying to teach people out, I'm going to give my impressions about not-so-obvious aspects of the tech industry.
