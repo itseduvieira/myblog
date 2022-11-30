@@ -1,9 +1,9 @@
 {
     "name": "efvi",
     "version": "1.0.0",
-    "description": "",
+    "description": "Calming The Stormy Sea",
     "scripts": {
-      "start": "rm -Rf .jekyll-cache/ && bundle exec jekyll serve",
+      "start": "rm -Rf .jekyll-cache/ && bundle exec jekyll serve --livereload",
       "build": "rm -Rf .jekyll-cache/ && rm -Rf _site/ && JEKYLL_ENV=production bundle exec jekyll build",
       "deploy": "npm run build && firebase deploy --project personal-4ace7"
     },

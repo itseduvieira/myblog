@@ -15,7 +15,7 @@ copyright:
 
 # Google-analytics
 google-analytics:
-  id:               ""
+  id:               "G-4H3XZP84SM"
 
 # Disqus
 disqus:
@@ -28,7 +28,7 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           America/Sao_Paulo
+timezone:           Europe/Lisbon
 permalink:          /:title/
 
 # Pagination
@@ -42,10 +42,10 @@ kramdown:
 
 # Navigation
 nav:
+  - name:           "navtags"
+    url:            "/series"
   - name:           "navabout"
     url:            "/about"
-  - name:           "navtags"
-    url:            "/tags"
   #- name:           "Archive"
   #  url:            "/archive"
   #- name:           "Github"
@@ -75,7 +75,6 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
   - jekyll-admin
   - jekyll-multiple-languages-plugin
 
