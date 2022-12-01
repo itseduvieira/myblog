@@ -6,9 +6,7 @@ Welcome to my little corner on the Internet.
 
 I love to write.
 
-Although I'm far as possible from being a writer, I built this site to share my perspective of the world, throughout the following series.
-
-And learn something, maybe?
+Although I'm far from being a writer, I built this site to share my perspective about the world, throughout the following series.
 
 ### On a synapse's perspective
 
@@ -34,4 +32,4 @@ Althought I may approach some technical stuff, I'm aware that there are already 
 
 *Writing is really hard.*
 
-Communicate ideas to people over words is challenging, kind of liberating tough.
+Communicate ideas to people in written form is challenging. We don't have all that non-verbal elements that helps us to modulate intent, nor the visual cues that show if the message is being absorved.

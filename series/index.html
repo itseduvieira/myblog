@@ -1,26 +1,27 @@
 ---
 layout: page
-title: Series
 permalink: /series/
 ---
 
-{% capture site_tags %}
-{% for tag in site.tags %}
-{{ tag | first }}{% unless forloop.last %},{% endunless %}
+<h4>Series</h4>
+
+{% capture site_categories %}
+{% for category in site.categories %}
+{{ category | first }}{% unless forloop.last %}+{% endunless %}
 {% endfor %}
 {% endcapture %}
 
-{% assign tags_list = site_tags | split:',' | sort %}
+{% assign categories_list = site_categories | split:'+' | sort %}
 
 <div class="tag-index">
   <ul>
-    {% for item in (0..site.tags.size) %}
+    {% for item in (0..site.categories.size) %}
     {% unless forloop.last %}
-      {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+      {% capture this_category %}{{ categories_list[item] | strip_newlines }}{% endcapture %}
       <li>
-        <a href="#{{ this_tag }}">
-          <span>{{ this_tag }}</span>
-          <span class="count">{{ site.tags[this_tag].size }}</span>
+        <a href="#{{ this_category }}">
+          <span>{{ this_category }}</span>
+          <span class="count">{{ site.categories[this_category].size }}</span>
         </a>
       </li>
     {% endunless %}
@@ -28,15 +29,15 @@ permalink: /series/
   </ul>
 </div>
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-  {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+{% for item in (0..site.categories.size) %}{% unless forloop.last %}
+  {% capture this_category %}{{ categories_list[item] | strip_newlines }}{% endcapture %}
   <article>
 
-  <div class="tag-title" id="{{ this_tag }}">
-    {{ this_tag }}
+  <div class="tag-title" style="text-transform: unset;" id="{{ this_category }}">
+    {{ this_category }}
   </div>
     <ul>
-    {% for post in site.tags[this_tag] %}
+    {% for post in site.categories[this_category] %}
     {% if post.title != null %}
       <li class="tag-post">
         {% if post.link %}

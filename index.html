@@ -41,9 +41,9 @@ layout: default
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}  
       <div class="list-post-date">
-        {{ post.tags.first }} • <time>{{ post.date | date_to_string }}</time>
+        IN {{ post.category }}
       </div>
-      <div class="list-post-title" style="line-height: 1.2; margin-top: 0.5rem">
+      <div class="list-post-title" style="line-height: 1.3; margin-top: 0.4rem">
         {{ post.title }}
       </div>
       {% if post.description %}
@@ -53,13 +53,10 @@ layout: default
       {% endif %}
       <div class="post-tag" style="margin-bottom: 0;">
         <ul style="margin-top: 0.5rem; margin-bottom: 0;">
-          {% for category in post.categories %}
+          {% for tag in post.tags %}
           <li>
-            <!-- <a href="{{ site.url }}{{ site.baseurl }}/series#{{ tag }}">
-              <span>{{ category }}</span>
-            </a> -->
-            <a href="#">
-                <span>{{ category }}</span>
+            <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                <span>{{ tag }}</span>
               </a>
           </li>
           {% unless forloop.last %}{% endunless %}
