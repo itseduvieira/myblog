@@ -44,8 +44,8 @@ kramdown:
 nav:
   - name:           "navtags"
     url:            "/series"
-  - name:           "navabout"
-    url:            "/about"
+  #- name:           "navabout"
+  #  url:            "/about"
   #- name:           "Archive"
   #  url:            "/archive"
   #- name:           "Github"

@@ -20,11 +20,17 @@ layout: default
 
     {% endfor %}
 
-    <!-- {% if site.lang == "pt" %}
+    • 
+
+    <a id="theme" href="#">light</a>
+
+    {% comment %}
+    {% if site.lang == "pt" %}
       <a href="{{ page.url }}">Read in English 🇺🇸</a>
     {% else %}
       <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
-    {% endif %} -->
+    {% endif %}
+    {% endcomment %}
   </nav>
 </header>
 
@@ -43,7 +49,7 @@ layout: default
       <div class="list-post-date">
         IN {{ post.category }}
       </div>
-      <div class="list-post-title" style="line-height: 1.3; margin-top: 0.4rem">
+      <div class="list-post-title">
         {{ post.title }}
       </div>
       {% if post.description %}
