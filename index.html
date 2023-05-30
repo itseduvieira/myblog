@@ -20,16 +20,17 @@ layout: default
 
     {% endfor %}
 
-    • 
-
-    <a id="theme" href="#">light</a>
-
     {% comment %}
-    {% if site.lang == "pt" %}
-      <a href="{{ page.url }}">Read in English 🇺🇸</a>
-    {% else %}
-      <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
-    {% endif %}
+      • 
+
+      <button onclick="setPreferredColorScheme()" href="#">light</button>
+
+    
+      {% if site.lang == "pt" %}
+        <a href="{{ page.url }}">Read in English 🇺🇸</a>
+      {% else %}
+        <a href="/pt{{ page.url }}">Ler em Português 🇧🇷</a>
+      {% endif %}
     {% endcomment %}
   </nav>
 </header>
