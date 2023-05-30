@@ -11,7 +11,7 @@ author:
 
 copyright:
   year:             2023
-  name:             Eduardo Vieira
+  name:             efvi.cc
 
 # Google-analytics
 google-analytics:
@@ -44,8 +44,8 @@ kramdown:
 nav:
   - name:           "navtags"
     url:            "/series"
-  #- name:           "navabout"
-  #  url:            "/about"
+  - name:           "navabout"
+    url:            "/about"
   #- name:           "Archive"
   #  url:            "/archive"
   #- name:           "Github"
