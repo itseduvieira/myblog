@@ -2,15 +2,15 @@
 
 Hello there!
 
-I have been writing a lot in the last couple of years, but hardly published anything. I believe this is mostly due to a form of procrastination disguised as 'perfectionism'. This cliché is well-known when we try to express ourselves through the writing process, also called ‘writer’s block’.
+I have been writing a lot in the last couple of years, but hardly published anything. I believe this is mostly due to a form of procrastination disguised as 'perfectionism'. This cliché is well-known in the writing process, especially when we try to express ourselves. People call it ‘writer’s block’.
 
 I do not believe in that.
 
-The real reason is simply that I could not find discipline. And this is about to change now.
+The real reason is simply because I couldn't find discipline. And this is about to change now.
 
 ## The series
 
-Although I am aware that I am not a writer, somehow I feel the urge to express my point of view about the world. On some of these topics, I have experienced them throughout my life. On others, I’m just passionate enough to study about them. Apart from some personal stuff, on this blog I intend to write about about the big picture of technology, neuroscience, psychology and physics.
+Although I am aware that I am not a writer, somehow I feel the urge to express my point of view about the world. On some of these topics, I have experienced them throughout my life. On others, I’m just passionate enough to study about them. Apart from some personal stuff, I intend to write here about technology, neuroscience, psychology and physics.
 
 The way I chose to achieve this goal was splitting these topics in series, each one consisting of one specific field, which can be read independently. Sometimes though, the same subject can be approached on different areas of knowledge, connected by two or more series.
 
