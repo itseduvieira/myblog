@@ -92,13 +92,20 @@ h1, h2, h3, h4, h5, h6 {
     .list-post .list-post-desc, 
     .post-description,
     .footer,
-    .footer i {
-        color:rgba(255, 255, 255, 0.5);
+    .footer i,
+    blockquote,
+    blockquote p em {
+        color: rgba(255, 255, 255, 0.5);
     }
 
     .post p,
     .page p {
         color:rgba(255, 255, 255, 0.9);
+    }
+
+    blockquote p em {
+        font-size: 17px;
+        color:rgba(255, 255, 255, 0.7);
     }
 
     .footer hr {

@@ -2,7 +2,7 @@
 
 Hello there!
 
-I have been writing a lot in the last couple of years, but hardly published anything. I believe this is mostly due to a form of procrastination disguised as 'perfectionism'. This cliché is well-known when we try to express ourselves through writing process, also called ‘writer’s block’.
+I have been writing a lot in the last couple of years, but hardly published anything. I believe this is mostly due to a form of procrastination disguised as 'perfectionism'. This cliché is well-known when we try to express ourselves through the writing process, also called ‘writer’s block’.
 
 I do not believe in that.
 
@@ -10,26 +10,38 @@ The real reason is simply that I could not find discipline. And this is about to
 
 ## The series
 
-Although I am aware that I am not a writer, somehow I feel the urge to express my point of view about the world. Some of these topics, I have experienced throughout my life. Others, I’m just passionate enough to study about. Apart from some personal stuff, on this blog, I am going to write about technology, neuroscience and physics.
+Although I am aware that I am not a writer, somehow I feel the urge to express my point of view about the world. On some of these topics, I have experienced them throughout my life. On others, I’m just passionate enough to study about them. Apart from some personal stuff, on this blog I intend to write about about the big picture of technology, neuroscience, psychology and physics.
 
-The way I chose to achieve this goal was splitting these topics in series, each one consisting of topics of each field by itself, which can be read independently. The same subject can also be presented in different areas of knowledge though, connected by two or more series.
+The way I chose to achieve this goal was splitting these topics in series, each one consisting of one specific field, which can be read independently. Sometimes though, the same subject can be approached on different areas of knowledge, connected by two or more series.
 
-But enough of talking about myself, let's dive into the real thing.
+By now it's time to dive into the real thing.
 
-### Retry, Abort, Fail?
+## Retry, Abort, Fail?
+
+> _My point of view on how technology became virtually omnipresent and affects us so deeply_
 
 This error message was very popular among personal computers back in the '80s, especially when windows based systems weren't around.
 
-### On a synapse's perspective
+## On a synapse's perspective
 
-A brain studying itself.
+> _How about we understand the most amazing machine ever created: the human brain?_
 
-### The least action
+A brain studying itself. How odd is that?
 
-Einstein's once said that an 'equation of everything' would represent a concept so elegant and simple, that any person should be able to understand it. 
+## The least action
 
-Following this idea of elegance and simplicity, 
+> _This is where I give my impressions about the way physics try to explain the reality_
 
-### Calming the storming sea
+Einstein's once said that an 'equation of everything' would represent a concept so elegant and simple, that any person should be able to understand it.
 
-The Great Wave off Kanagawa and the Monk Nichiren
+He already tried it himself on his very own $$ {\displaystyle E=mc^{2}} $$.
+
+Following this idea of elegance and simplicity, in the '40s, the 'least action principle' was used to demonstrate a way of encapsulate mostly motion theories into this simple concept.
+
+Since then, the simplest form of this principle $$ {\displaystyle \delta {\mathcal {S}}=0} $$ became one of the most fundamental equations in all physics. 
+
+## Calming the storming sea
+
+> _Sometimes you just need to talk about what you are feeling in order to feel better_
+
+The Great Wave off Kanagawa being tamed by the monk Nichiren.
